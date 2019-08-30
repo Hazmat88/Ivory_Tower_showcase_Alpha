@@ -1,11 +1,11 @@
 
 
-//@import "compass/reset";
-//@import "compass/css3";
+@import "compass/reset";
+@import "compass/css3";
 
 // ********* IMPORTS **********
 
-@import "moblie/style_m.scss";
+@import "mobile/style_m.scss";
 @import "mobile/nav_m.scss";
 
 
@@ -18,6 +18,11 @@
 }*/
 
 // ********** Test swup ********
+
+header{
+    background:url(../img/home.jpg) no-repeat top center fixed;
+    @include background-size(cover);
+}
 .transition-fade {
   transition: 0.4s;
   opacity: 1;
