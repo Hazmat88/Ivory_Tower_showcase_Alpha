@@ -35,12 +35,34 @@
 	  background-color: #11ffee00;
 		z-index:9;
 		//text-align:center;
-		color: #1E1E1E;
+
 		padding: 20px 0 0 0;
     font-family: 'aileronsregular', Arial, sans-serif;
 font-weight:normal;
 font-style:normal;
+
 	}
+
+	nav{
+		.brand-logo{
+
+				color:black;
+
+		}
+	}
+
+nav{
+
+
+	ul{
+		a{
+				color: black;
+		}
+	}
+
+}
+
+
 
 	#header{
 		top:0px;

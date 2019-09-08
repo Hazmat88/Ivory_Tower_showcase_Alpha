@@ -32,19 +32,28 @@
   width: 100%;
   background-color: #11ffee00;
   z-index: 9;
-  color: #1E1E1E;
   padding: 20px 0 0 0;
   font-family: 'aileronsregular', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 45, ../../sass/mobile/nav_m.scss */
+/* line 47, ../../sass/mobile/nav_m.scss */
+nav .brand-logo {
+  color: black;
+}
+
+/* line 58, ../../sass/mobile/nav_m.scss */
+nav ul a {
+  color: black;
+}
+
+/* line 67, ../../sass/mobile/nav_m.scss */
 #header {
   top: 0px;
 }
 
-/* line 48, ../../sass/mobile/nav_m.scss */
+/* line 70, ../../sass/mobile/nav_m.scss */
 #footer {
   bottom: 0px;
 }
