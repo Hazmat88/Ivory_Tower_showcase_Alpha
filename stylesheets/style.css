@@ -130,7 +130,7 @@ nav ul a {
 }*/
 /* line 22, ../sass/style.scss */
 header {
-  background: url(../img/home.jpg) no-repeat top center fixed;
+  background: url(../img/home.png) no-repeat top center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
