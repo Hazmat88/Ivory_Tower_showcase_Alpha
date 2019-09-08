@@ -1,20 +1,14 @@
-/* line 3, ../../sass/mobile/nav_m.scss */
+/*
 #navbar {
-  background-color: #333;
-  /* Black background color */
-  position: fixed;
-  /* Make it stick/fixed */
-  top: 0;
-  /* Stay on top */
-  width: 100%;
-  /* Full width */
-  transition: top 0.3s;
-  /* Transition effect when sliding down (and up) */
-}
+  background-color: #333; /* Black background color */
+/*position: fixed; /* Make it stick/fixed */
+/*top: 0; /* Stay on top */
+/*  width: 100%; /* Full width */
+/*transition: top 0.3s; /* Transition effect when sliding down (and up) */
+/*}
 
 /* Style the navbar links */
-/* line 12, ../../sass/mobile/nav_m.scss */
-#navbar a {
+/*#navbar a {
   float: left;
   display: block;
   color: white;
@@ -23,8 +17,34 @@
   text-decoration: none;
 }
 
-/* line 21, ../../sass/mobile/nav_m.scss */
 #navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+*/
+/* Fixed header and footer.
+* --------------------------------------- */
+/* line 30, ../../sass/mobile/nav_m.scss */
+#header, #footer {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background-color: #11ffee00;
+  z-index: 9;
+  color: #1E1E1E;
+  padding: 20px 0 0 0;
+  font-family: 'aileronsregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 45, ../../sass/mobile/nav_m.scss */
+#header {
+  top: 0px;
+}
+
+/* line 48, ../../sass/mobile/nav_m.scss */
+#footer {
+  bottom: 0px;
 }

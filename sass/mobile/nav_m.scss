@@ -1,15 +1,15 @@
 
-
+/*
 #navbar {
   background-color: #333; /* Black background color */
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-}
+  /*position: fixed; /* Make it stick/fixed */
+  /*top: 0; /* Stay on top */
+/*  width: 100%; /* Full width */
+  /*transition: top 0.3s; /* Transition effect when sliding down (and up) */
+/*}
 
 /* Style the navbar links */
-#navbar a {
+/*#navbar a {
   float: left;
   display: block;
   color: white;
@@ -22,3 +22,29 @@
   background-color: #ddd;
   color: black;
 }
+*/
+
+
+	/* Fixed header and footer.
+	* --------------------------------------- */
+	#header, #footer{
+		position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+	  background-color: #11ffee00;
+		z-index:9;
+		//text-align:center;
+		color: #1E1E1E;
+		padding: 20px 0 0 0;
+    font-family: 'aileronsregular', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+	}
+
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
