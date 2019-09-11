@@ -1,13 +1,16 @@
 /*
 Error: Undefined mixin 'background-size'.
-        on line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss, in `background-size'
-        from line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss
-        from line 3 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/style_m.scss
+        on line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss, in `background-size'
+        from line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss
+        from line 2 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/style_d.scss
+
+1: @import "nav_d.scss";
+2: @import "home_d.scss";
 
 Backtrace:
-C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss:29:in `background-size'
-C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss:29
-C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/style_m.scss:3
+C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss:6:in `background-size'
+C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss:6
+C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/style_d.scss:2
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
@@ -71,4 +74,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background-size'.\A         on line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss, in `background-size'\A         from line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss\A         from line 3 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/style_m.scss"; }
+  content: "Error: Undefined mixin 'background-size'.\A         on line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss, in `background-size'\A         from line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss\A         from line 2 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/style_d.scss\A \A 1: @import \"nav_d.scss\";\A 2: @import \"home_d.scss\";"; }

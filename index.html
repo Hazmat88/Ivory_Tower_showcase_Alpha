@@ -27,9 +27,7 @@
 
 
           <body>
-            <div id="top">
 
-            </div>
 <!--  NAVBAR
                         <div id="navbar">
                          <a href="#home">Home</a>
@@ -53,34 +51,59 @@
 -->
 
 <!--  NAVBAR Fixed fullpage & materialize -->
-    <!--  NAV fixed Header Features By fullpage.js-->
-    <nav id="header" class="z-depth-0" >
+    <!--  NAV fixed Header Features By fullpage.js
+  <nav id="header" class="z-depth-0" >-->
 
+      <!--  NAVBAR Featured By Materialize.css
+        <div class="nav-wrapper " >
+          <a data-menuanchor="firstPage" href="#firstPage" class="brand-logo">LOGO</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a data-menuanchor="firstPage" href="#firstPage">Acceuil</a></li>
+            <li><a href="#section1">Concept</a></li>
+            <li><a href="collapsible.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+  </nav>-->
 
+<!--  NAVBAR TRYE Features Menu effect  -->
+		<button id="burger" class="open-main-nav">
+  			<span class="burger"></span>
+  			<span class="burger-text">Menu</span>
+		</button>
 
-    <!--  NAVBAR Featured By Materialize.css-->
-      <div class="nav-wrapper " >
-        <a data-menuanchor="firstPage" href="#firstPage" class="brand-logo">LOGO</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a data-menuanchor="firstPage" href="#firstPage">Acceuil</a></li>
-          <li><a href="#section1">Concept</a></li>
-          <li><a href="collapsible.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+		<nav class="main-nav " id="main-nav">
+        <div class="nav-wrapper ">
+          <!-- NAV LOGO -->
+          <a data-menuanchor="firstPage" href="#firstPage" class="brand-logo">LOGO</a>
+
+          <!-- NAV MENU -->
+        			<ul>
+        				<li>
+        					<a href="#">Acceuil</a>
+        				</li>
+        				<li>
+        					<a href="#">Concept</a>
+        				</li>
+        				<li>
+        					<a href="#">Contact</a>
+        				</li>
+        			</ul>
+        </div>
+		</nav>
 
 
 <!--  COVER img background outside fullpage div > paralax effect -->
-<header id="cover" class="fp-auto-height">
-
+<header id="cover">
+    <h1 class="titleAI">IVORY</h1>
+    <h1 class="titleBT">TOWER</h1>
 <!-- IDEA integrate here animation/paralax title Ivory Tower <h1>Ivory Tower</h1> -->
 
 </header>
 
 
 <!--  TEST Fullpage-->
-    <div id="fullpage">
+<div id="fullpage">
 
 
 
@@ -93,7 +116,7 @@
             	</div>
 -->
 
-      	<div class="section" id="section0">
+      	<div class="section" id="section1">
       		<div class="slide fp-auto-height" id="slide0">
       			<h1>Navigation dots</h1>
       			<p>An easy and beautiful way to navigate throw the sections</p>
@@ -101,7 +124,7 @@
       	</div>
 
 
-      	<div class="section" id="section1">
+      	<div class="section" id="section2">
       	    <div class="slide fp-auto-height" id="slide1">
       			<div class="intro ">
       				<h1>Clickable</h1>
@@ -116,9 +139,12 @@
       		</div>
 
       	</div>
-      	<div class="section" id="section2">
-      		<div class="intro">
-      			<h1>Enjoy it</h1>
+
+
+      	<div class="section" id="section3">
+          <div class="slide fp-auto-height" id="slide3">
+      			<h1>Navigation dots</h1>
+      			<p>An easy and beautiful way to navigate throw the sections</p>
       		</div>
       	</div>
   </div>
@@ -135,11 +161,11 @@
 
               <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        anchors: ['firstPage', 'secondPage', '3rdPage','firstPage'],
+        sectionsColor: ['#F07176', '#1A1A1A', '#7E8F7C','#7E8F7C'],
         navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: ['acceuil', 'Concept', 'Contact'],
+        navigationPosition: 'left',
+        navigationTooltips: ['acceuil', 'Concept', 'Concept1', 'Contact'],
         menu: '#menu'
     });
 </script>

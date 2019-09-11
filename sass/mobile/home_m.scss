@@ -1,0 +1,30 @@
+
+// *********** TITLES HOME_m *************
+
+.titleAI, .titleBT{
+  font-size: 22vw;
+  font-family: 'aileronsregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+
+.titleAI{
+  position:absolute;
+  top:150px;
+  left:4vw;
+}
+
+
+ .titleBT{
+   position:absolute;
+   top:280px;
+   left:30vw;
+ }
+
+
+// *********** HOME_m BACKGROUND IMG *************
+ header{
+     background:url(../img/home_m.png) no-repeat top center fixed;
+     @include background-size(cover);
+ }

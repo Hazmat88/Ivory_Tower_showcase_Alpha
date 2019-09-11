@@ -6,23 +6,18 @@
 // ********* IMPORTS **********
 
 @import "mobile/style_m.scss";
-@import "mobile/nav_m.scss";
+//@import "mobile/nav_m.scss";
 
 
-// ********** DESKTOP *********
 
-/*.bgcmain{
-  background-color: green;
-  width:100%;
-  height:4500px;
-}*/
+// MEDIA QUERIE DESKTOP MODE
+
+@media screen and (min-width: 600px) {
+    @import "desktop/style_d.scss";
+}
 
 // ********** Test swup ********
 
-header{
-    background:url(../img/home.png) no-repeat top center fixed;
-    @include background-size(cover);
-}
 .transition-fade {
   transition: 0.4s;
   opacity: 1;

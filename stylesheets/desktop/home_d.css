@@ -1,13 +1,19 @@
 /*
 Error: Undefined mixin 'background-size'.
-        on line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss, in `background-size'
-        from line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss
-        from line 3 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/style_m.scss
+        on line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss, in `background-size'
+        from line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss
+
+1: 
+2: 
+3: 
+4: header{
+5:     background:url(../img/home.png) no-repeat top center fixed;
+6:     @include background-size(cover);
+7: }
 
 Backtrace:
-C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss:29:in `background-size'
-C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss:29
-C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/style_m.scss:3
+C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss:6:in `background-size'
+C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss:6
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
@@ -24,19 +30,6 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perfor
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
@@ -71,4 +64,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background-size'.\A         on line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss, in `background-size'\A         from line 29 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/home_m.scss\A         from line 3 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/mobile/style_m.scss"; }
+  content: "Error: Undefined mixin 'background-size'.\A         on line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss, in `background-size'\A         from line 6 of C:/Users/Mahadeva/Desktop/Dev_L/swup/swup_test/sass/desktop/home_d.scss\A \A 1: \A 2: \A 3: \A 4: header{\A 5:     background:url(../img/home.png) no-repeat top center fixed;\A 6:     @include background-size(cover);\A 7: }"; }
