@@ -94,12 +94,29 @@
 
 
 <!--  COVER img background outside fullpage div > paralax effect -->
+
 <header id="cover">
-    <h1 class="titleAI">IVORY</h1>
-    <h1 class="titleBT">TOWER</h1>
+
+
+    <!--  TEST PARALAX -->
+        <div id="container">
+          <div id="imgparalax"></div>
+          <!--  <img src="https://unsplash.it/1000/1000?random=" /> -->
+
+            <h1 class="titleAI">IVORY</h1>
+            <h1 class="titleBT">TOWER</h1>
+
+            <img class ="img_m_1" src="img/home_m_elements/r1.png" alt="">
+            <img class ="img_m_2" src="img/home_m_elements/r0.png" alt="">
+            <img class ="img_m_3" src="img/home_m_elements/r4.png" alt="">
+            <img class ="img_m_4" src="img/home_m_elements/rs.png" alt="">
+
+        </div>
 <!-- IDEA integrate here animation/paralax title Ivory Tower <h1>Ivory Tower</h1> -->
 
+
 </header>
+
 
 
 <!--  TEST Fullpage-->
@@ -120,6 +137,9 @@
       		<div class="slide fp-auto-height" id="slide0">
       			<h1>Navigation dots</h1>
       			<p>An easy and beautiful way to navigate throw the sections</p>
+
+
+
       		</div>
       	</div>
 
@@ -153,30 +173,34 @@
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
               <script src="js/dist/swup.js"></script>
+              <!-- SWUP CDN
+              <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>-->
               <script src="js/main.js"></script>
               <script type="text/javascript" src="pluggins/fullpage_dists/fullpage.js"></script>
-
-                  <!-- or directly from unpkg
-              <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>-->
-
-              <script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage','firstPage'],
-        sectionsColor: ['#F07176', '#1A1A1A', '#7E8F7C','#7E8F7C'],
-        navigation: true,
-        navigationPosition: 'left',
-        navigationTooltips: ['acceuil', 'Concept', 'Concept1', 'Contact'],
-        menu: '#menu'
-    });
-</script>
-
-
-
-
-              <script type="text/javascript">
-
-                const swup = new Swup();
+              <!-- TEST PARALAX -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js">
               </script>
+
+
+
+
+              <!-- ************* FULLPAGE.JS INITIALIZATION ******** -->
+              <script type="text/javascript">
+                  var myFullpage = new fullpage('#fullpage', {
+                      anchors: ['firstPage', 'secondPage', '3rdPage','firstPage'],
+                      sectionsColor: ['#F07176', '#1A1A1A', '#7E8F7C','#7E8F7C'],
+                      navigation: true,
+                      navigationPosition: 'left',
+                      navigationTooltips: ['acceuil', 'Concept', 'Concept1', 'Contact'],
+                      menu: '#menu'
+                  });
+            </script>
+
+
+
+
+
+
           </body>
 
 

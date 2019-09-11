@@ -88,7 +88,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 */
 /* Fixed header and footer*/
-/* line 35, ../sass/mobile/nav_m.scss */
+/* line 34, ../sass/mobile/nav_m.scss */
 #header, #footer {
   position: fixed;
   height: 50px;
@@ -102,24 +102,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-style: normal;
 }
 
-/* line 51, ../sass/mobile/nav_m.scss */
+/* line 50, ../sass/mobile/nav_m.scss */
 #header {
   top: 0px;
 }
 
-/* line 54, ../sass/mobile/nav_m.scss */
+/* line 53, ../sass/mobile/nav_m.scss */
 #footer {
   bottom: 0px;
 }
 
-/* line 60, ../sass/mobile/nav_m.scss */
+/* line 59, ../sass/mobile/nav_m.scss */
 nav .brand-logo {
   color: black;
   opacity: 1;
 }
 
 /* Main menu positionning */
-/* line 70, ../sass/mobile/nav_m.scss */
+/* line 69, ../sass/mobile/nav_m.scss */
 .main-nav {
   position: absolute;
   top: 0;
@@ -134,7 +134,7 @@ nav .brand-logo {
   transition: all .375s;
 }
 
-/* line 84, ../sass/mobile/nav_m.scss */
+/* line 83, ../sass/mobile/nav_m.scss */
 .main-nav.is-open {
   opacity: 1;
   z-index: 100;
@@ -142,8 +142,8 @@ nav .brand-logo {
   height: 100%;
 }
 
-/* Yellow band effect */
-/* line 92, ../sass/mobile/nav_m.scss */
+/* RED band effect */
+/* line 91, ../sass/mobile/nav_m.scss */
 .main-nav::before {
   content: '';
   position: absolute;
@@ -157,13 +157,13 @@ nav .brand-logo {
   transition: all .275s .1s;
 }
 
-/* line 105, ../sass/mobile/nav_m.scss */
+/* line 104, ../sass/mobile/nav_m.scss */
 .main-nav.is-open::before {
   transform: skew(-14deg) translateX(0);
 }
 
 /* Skewing effect on menu links */
-/* line 110, ../sass/mobile/nav_m.scss */
+/* line 109, ../sass/mobile/nav_m.scss */
 .main-nav ul {
   display: inline-flex;
   flex-direction: column;
@@ -174,7 +174,7 @@ nav .brand-logo {
   transform: translateX(-18%) skew(-16deg);
 }
 
-/* line 119, ../sass/mobile/nav_m.scss */
+/* line 118, ../sass/mobile/nav_m.scss */
 .main-nav li {
   display: block;
   margin: .5rem 0;
@@ -183,58 +183,58 @@ nav .brand-logo {
 }
 
 /* Apparition effect on links */
-/* line 127, ../sass/mobile/nav_m.scss */
+/* line 126, ../sass/mobile/nav_m.scss */
 .main-nav a {
   opacity: 0;
   transform: translateY(-10px);
 }
 
-/* line 132, ../sass/mobile/nav_m.scss */
+/* line 131, ../sass/mobile/nav_m.scss */
 .brand-logo {
   color: black;
   opacity: 1;
 }
 
-/* line 137, ../sass/mobile/nav_m.scss */
+/* line 136, ../sass/mobile/nav_m.scss */
 .main-nav.is-open a {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* line 141, ../sass/mobile/nav_m.scss */
+/* line 140, ../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(1) a {
   transition: all 275ms 175ms;
 }
 
-/* line 144, ../sass/mobile/nav_m.scss */
+/* line 143, ../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(2) a {
   transition: all 275ms 225ms;
 }
 
-/* line 147, ../sass/mobile/nav_m.scss */
+/* line 146, ../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(3) a {
   transition: all 275ms 275ms;
 }
 
-/* line 150, ../sass/mobile/nav_m.scss */
+/* line 149, ../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(4) a {
   transition: all 275ms 325ms;
 }
 
-/* line 153, ../sass/mobile/nav_m.scss */
+/* line 152, ../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(5) a {
   transition: all 275ms 375ms;
 }
 
 /* Decoration */
-/* line 159, ../sass/mobile/nav_m.scss */
+/* line 158, ../sass/mobile/nav_m.scss */
 .main-nav ul,
 .main-nav li {
   list-style: none;
   padding: 0;
 }
 
-/* line 164, ../sass/mobile/nav_m.scss */
+/* line 163, ../sass/mobile/nav_m.scss */
 .main-nav a {
   font-family: 'aileronsregular', Arial, sans-serif;
   font-weight: normal;
@@ -247,7 +247,7 @@ nav .brand-logo {
 }
 
 /* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
-/* line 177, ../sass/mobile/nav_m.scss */
+/* line 176, ../sass/mobile/nav_m.scss */
 .open-main-nav {
   position: absolute;
   top: 15px;
@@ -259,12 +259,12 @@ nav .brand-logo {
   cursor: pointer;
 }
 
-/* line 187, ../sass/mobile/nav_m.scss */
+/* line 186, ../sass/mobile/nav_m.scss */
 .open-main-nav:focus {
   outline: none;
 }
 
-/* line 190, ../sass/mobile/nav_m.scss */
+/* line 189, ../sass/mobile/nav_m.scss */
 .burger {
   position: relative;
   display: block;
@@ -276,7 +276,7 @@ nav .brand-logo {
   transition: all .275s;
 }
 
-/* line 201, ../sass/mobile/nav_m.scss */
+/* line 200, ../sass/mobile/nav_m.scss */
 .burger:after,
 .burger:before {
   content: '';
@@ -286,35 +286,35 @@ nav .brand-logo {
   transition: all .275s;
 }
 
-/* line 210, ../sass/mobile/nav_m.scss */
+/* line 209, ../sass/mobile/nav_m.scss */
 .burger:after {
   transform: translateY(-12px) translateX(-2px) skew(-20deg);
 }
 
-/* line 214, ../sass/mobile/nav_m.scss */
+/* line 213, ../sass/mobile/nav_m.scss */
 .burger:before {
   transform: translateY(-16px) skew(-10deg);
 }
 
 /* Toggle State part */
-/* line 219, ../sass/mobile/nav_m.scss */
+/* line 218, ../sass/mobile/nav_m.scss */
 .is-open .burger {
   transform: skew(5deg) translateY(-8px) rotate(-45deg);
 }
 
-/* line 223, ../sass/mobile/nav_m.scss */
+/* line 222, ../sass/mobile/nav_m.scss */
 .is-open .burger:before {
   transform: translateY(0px) skew(-10deg) rotate(75deg);
 }
 
-/* line 227, ../sass/mobile/nav_m.scss */
+/* line 226, ../sass/mobile/nav_m.scss */
 .is-open .burger:after {
   transform: translateY(-12px) translateX(10px) skew(-20deg);
   opacity: 0;
 }
 
 /* MENU Text part */
-/* line 234, ../sass/mobile/nav_m.scss */
+/* line 233, ../sass/mobile/nav_m.scss */
 .burger-text {
   display: block;
   font-size: .675rem;
@@ -326,7 +326,7 @@ nav .brand-logo {
   color: #5A3B5D;
 }
 
-/* line 245, ../sass/mobile/nav_m.scss */
+/* line 244, ../sass/mobile/nav_m.scss */
 .device {
   position: relative;
   width: 345px;
@@ -337,7 +337,7 @@ nav .brand-logo {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 255, ../sass/mobile/nav_m.scss */
+/* line 254, ../sass/mobile/nav_m.scss */
 .container {
   position: absolute;
   top: 0;
@@ -348,97 +348,12 @@ nav .brand-logo {
   background: linear-gradient(to bottom, #eeeeee, #dddddd);
 }
 
-/*
-html {
-	height: 100%;
-}
-body {
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+/*#fp-nav{
+	position:absolute;
+	bottom:0px !important;
+	left:50px;
 }*/
-/* Slow motion button
-[id="slowmo"] {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	padding: 10px;
-	border: 0;
-	font-size: 1rem;
-	background: #FEDC2A;
-	color: #5A3B5D;
-	font-weight: bold;
-	cursor: pointer;
-	transition: all .275s;
-}
-
-[id="slowmo"] span {
-	display: block;
-	font-weight: normal;
-}
-
-[id="slowmo"]:hover,
-[id="slowmo"]:focus {
-	background: #5A3B5D;
-	color: #FEDC2A;
-}
-
-[id="slowmo"].is-slowmo span:after {
-	content: 'Activated';
-	display: block;
-	font-weight: bold;
-}
-*/
-/* When slowmotion is activated
-
-.is-slowmo + .device .open-main-nav .burger,
-.is-slowmo + .device .open-main-nav .burger:before,
-.is-slowmo + .device .open-main-nav .burger:after,
-.is-slowmo + .device .main-nav,
-.is-slowmo + .device .main-nav::before,
-.is-slowmo + .device .main-nav a {
-	transition-duration: 3s;
-}
-.is-slowmo + .device .main-nav li:nth-child(1) a {
-	transition-delay: 1750ms
-}
-.is-slowmo + .device .main-nav li:nth-child(2) a {
-	transition-delay: 2250ms
-}
-.is-slowmo + .device .main-nav li:nth-child(3) a {
-	transition-delay: 2750ms
-}
-.is-slowmo + .device .main-nav li:nth-child(4) a {
-	transition-delay: 3250ms
-}
-.is-slowmo + .device .main-nav li:nth-child(5) a {
-	transition-delay: 3750ms
-}
- */
-/* Notice
-.notice {
-	position: absolute;
-	bottom: -15px;
-	left: 0; right: 0;
-	padding: 20px;
-	background: #F2F2F2;
-	color: #5A3B5D;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 1.5;
-	z-index: 100;
-	text-align: center;
-}
-.notice strong {
-	font-weight: 700;
-}
-.notice a {
-	padding: 2px 3px;
-	background: #FEDC2A;
-	text-decoration: none;
-} */
-/* line 4, ../sass/mobile/home_m.scss */
+/* line 5, ../sass/mobile/home_m.scss */
 .titleAI, .titleBT {
   font-size: 22vw;
   font-family: 'aileronsregular', Arial, sans-serif;
@@ -446,27 +361,93 @@ body {
   font-style: normal;
 }
 
-/* line 12, ../sass/mobile/home_m.scss */
+/* line 13, ../sass/mobile/home_m.scss */
 .titleAI {
   position: absolute;
   top: 150px;
   left: 4vw;
 }
 
-/* line 19, ../sass/mobile/home_m.scss */
+/* line 20, ../sass/mobile/home_m.scss */
 .titleBT {
   position: absolute;
   top: 280px;
   left: 30vw;
 }
 
-/* line 27, ../sass/mobile/home_m.scss */
+/* line 28, ../sass/mobile/home_m.scss */
 header {
   background: url(../img/home_m.png) no-repeat top center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+/* line 35, ../sass/mobile/home_m.scss */
+#container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 46, ../sass/mobile/home_m.scss */
+.sliderA .titleAI {
+  position: absolute;
+  top: 150px;
+  left: 4vw;
+}
+
+/* line 54, ../sass/mobile/home_m.scss */
+.img_m_1 {
+  display: block;
+  position: absolute;
+  height: 260px !important;
+  width: 85px !important;
+  top: 80vw;
+  left: 6vw;
+}
+
+/* line 63, ../sass/mobile/home_m.scss */
+.img_m_2 {
+  display: block;
+  position: absolute;
+  height: 90px !important;
+  width: 260px !important;
+  top: 100vw;
+  right: 6vw;
+}
+
+/* line 73, ../sass/mobile/home_m.scss */
+.img_m_3 {
+  display: block;
+  position: absolute;
+  height: 90px !important;
+  width: 260px !important;
+  top: 150vw;
+  left: 6vw;
+}
+
+/* line 82, ../sass/mobile/home_m.scss */
+.img_m_4 {
+  display: block;
+  position: absolute;
+  height: 260px !important;
+  width: 85px !important;
+  top: 130vw;
+  right: 6vw;
+}
+
+/* line 92, ../sass/mobile/home_m.scss */
+#imgparalax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 600px) {
@@ -478,10 +459,15 @@ header {
   /* line 4, ../sass/desktop/home_d.scss */
   header {
     background: url(../img/home.png) no-repeat top center fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
     background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+  }
+
+  /* line 12, ../sass/desktop/home_d.scss */
+  .img_m_1, .img_m_2, .img_m_3, .img_m_4 {
+    display: none;
   }
 }
 /* line 21, ../sass/style.scss */
