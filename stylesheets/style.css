@@ -441,7 +441,17 @@ header {
   right: 6vw;
 }
 
-/* line 92, ../sass/mobile/home_m.scss */
+/* line 91, ../sass/mobile/home_m.scss */
+.scroll_img {
+  display: block;
+  position: absolute;
+  height: 260px !important;
+  width: 55px !important;
+  bottom: 0vw;
+  right: 2vw;
+}
+
+/* line 101, ../sass/mobile/home_m.scss */
 #imgparalax {
   position: absolute;
   top: 0;
@@ -453,7 +463,20 @@ header {
 @media screen and (min-width: 600px) {
   /* line 3, ../sass/desktop/nav_d.scss */
   .titleAI, .titleBT {
-    display: none;
+    font-size: 4em;
+  }
+
+  /* line 8, ../sass/desktop/nav_d.scss */
+  .titleAI {
+    postion: absolute;
+    left: 8vw;
+  }
+
+  /* line 13, ../sass/desktop/nav_d.scss */
+  .titleBT {
+    postion: absolute;
+    top: 180px;
+    left: 35;
   }
 
   /* line 4, ../sass/desktop/home_d.scss */

@@ -86,7 +86,17 @@ header {
   right: 6vw;
 }
 
-/* line 92, ../../sass/mobile/home_m.scss */
+/* line 91, ../../sass/mobile/home_m.scss */
+.scroll_img {
+  display: block;
+  position: absolute;
+  height: 260px !important;
+  width: 55px !important;
+  bottom: 0vw;
+  right: 2vw;
+}
+
+/* line 101, ../../sass/mobile/home_m.scss */
 #imgparalax {
   position: absolute;
   top: 0;

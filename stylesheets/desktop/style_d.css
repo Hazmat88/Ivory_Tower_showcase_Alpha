@@ -1,6 +1,19 @@
 /* line 3, ../../sass/desktop/nav_d.scss */
 .titleAI, .titleBT {
-  display: none;
+  font-size: 4em;
+}
+
+/* line 8, ../../sass/desktop/nav_d.scss */
+.titleAI {
+  postion: absolute;
+  left: 8vw;
+}
+
+/* line 13, ../../sass/desktop/nav_d.scss */
+.titleBT {
+  postion: absolute;
+  top: 180px;
+  left: 35;
 }
 
 /* line 4, ../../sass/desktop/home_d.scss */
