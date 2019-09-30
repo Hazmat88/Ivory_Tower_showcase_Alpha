@@ -473,6 +473,21 @@ header {
   width: 100%;
 }
 
+/* line 3, ../sass/mobile/Section1_m.scss */
+.ml1, .ml2, .ml3 {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+/* line 14, ../sass/mobile/Section1_m.scss */
+.m1l2 {
+  height: 200px;
+  background-color: black;
+  border-radius: 30px;
+}
+
 @media screen and (min-width: 600px) {
   /* line 3, ../sass/desktop/nav_d.scss */
   .titleAI, .titleBT {
