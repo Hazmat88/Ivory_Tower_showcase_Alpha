@@ -16,6 +16,9 @@
       <!--  PLUGINS-->
             <!--  Fullpage css file-->
       <link rel="stylesheet" href="pluggins/fullpage_dists/fullpage.css">
+            <!-- TRY ANIMATIONS AOS --->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
       <!--  webfonts kits-->
       <link rel="stylesheet" href="font/wfkt_ailerons/stylesheet.css">
       <!--  STYLE -->
@@ -28,43 +31,6 @@
 
           <body>
 
-<!--  NAVBAR
-                        <div id="navbar">
-                         <a href="#home">Home</a>
-                         <a href="#news">News</a>
-                         <a href="#contact">Contact</a>
-                        </div>-->
-
-
-
-
-
-<!--  TEST SWUP-->
-        <!--        <div class="bgcmain">
-                       <h1>This is homepage</h1>
-                       <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                         labore et dolore magna aliqua.
-                       </p>
-                       <a href="/someOtherPage">Go to other page</a>
-                </div>
--->
-
-<!--  NAVBAR Fixed fullpage & materialize -->
-    <!--  NAV fixed Header Features By fullpage.js
-  <nav id="header" class="z-depth-0" >-->
-
-      <!--  NAVBAR Featured By Materialize.css
-        <div class="nav-wrapper " >
-          <a data-menuanchor="firstPage" href="#firstPage" class="brand-logo">LOGO</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a data-menuanchor="firstPage" href="#firstPage">Acceuil</a></li>
-            <li><a href="#section1">Concept</a></li>
-            <li><a href="collapsible.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-  </nav>-->
 
     <!-- LOGO ---------------->
 <img class="logo" src="img/logo.png" alt="">
@@ -130,13 +96,14 @@
 <!--  TEST Fullpage-->
 <div id="fullpage">
 
-<!-- MODULE 1  -->
+<!--SECTION 1 - MODULE 1  -->
       	<div class="section" id="section1">
       		<div class="slide fp-auto-height" id="slide0">
 
             <!-- M1 LINE 1  -->
                 <div class="row">
-                    <div class="ml1 col s12 m4"></div>
+                  <!-- TRY AOS ANIMATION PLUGGINS data-aos="fade-in" -->
+                    <div  class="ml1 col s12 m4" ></div>
 
                     <div class="ml2 col s12 m4"></div>
 
@@ -148,11 +115,12 @@
                     <div class="m1l2 col s12 m12">
                     </div>
                 </div>
-
+            <!-- TRY FULLPAGE JS ANIMATION  -->
+            <img id="tryA" class ="test_animated" src="img/home_m_elements/scrolldown_R.png" alt="">
       		</div>
       	</div>
 
-<!-- MODULE 2  -->
+<!--SECTION 2 - MODULE 2  -->
       	<div class="section" id="section2">
       	    <div class="slide fp-auto-height" id="slide1">
               <!-- M2 LINE 1  -->
@@ -170,7 +138,7 @@
       	    	</div>
       	</div>
 
-<!-- MODULE 3  -->
+<!--SECTION 3 - MODULE 3  -->
       	<div class="section" id="section3">
           <div class="slide fp-auto-height" id="slide3">
 
@@ -202,6 +170,8 @@
 
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+              <!-- TRY AOS ANIMATION PLUGGINS -->
+              <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
               <script src="js/dist/swup.js"></script>
               <!-- SWUP CDN
               <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>-->
@@ -226,9 +196,11 @@
                   });
             </script>
 
+            <!-- ********** AOS ANIMATIONS INITIALIZATION ******** -->
 
-
-
+              <script>
+                AOS.init();
+              </script>
 
 
           </body>
