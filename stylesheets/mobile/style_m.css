@@ -408,15 +408,29 @@ header {
   width: 100%;
 }
 
-/* line 5, ../../sass/mobile/section1_m.scss */
-.ml1, .ml2, .ml3 {
-  height: 200px;
+/*
+img {
+  margin: 0 auto;
+}
+.fourth button {
+  margin-top: 20px;
+}
+
+button.btn {
+  margin-top: 40px;
+  border-radius: 4px;
+}
+*/
+/* line 17, ../../sass/mobile/m_section.scss */
+.ml1, .ml2, .ml3, .ml4 {
+  margin-top: 100px;
+  height: 300px;
   width: 200px;
   background-color: black;
   border-radius: 30px;
 }
 
-/* line 16, ../../sass/mobile/section1_m.scss */
+/* line 29, ../../sass/mobile/m_section.scss */
 .m1l2 {
   height: 200px;
   background-color: black;
@@ -426,7 +440,7 @@ header {
 /*.section{
   position:relative;
 }*/
-/* line 30, ../../sass/mobile/section1_m.scss */
+/* line 43, ../../sass/mobile/m_section.scss */
 #tryA {
   position: absolute;
   bottom: 0px;

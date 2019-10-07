@@ -4,13 +4,13 @@
 //  ****** LOADING FUNCTIONS SECTIONS *********
 navbar();
 Paralaxeffect();
-
+//S0animation();
 
 // ********** TEST SWUP **********
 //const swup = new Swup(); // only this line when included with script tag
-function TrySwup(){
-  const swup = new Swup();
-}
+//function TrySwup(){
+  //const swup = new Swup();
+//}
 
 // ******* NAV BEAHVIOUR ****************
 function navbar(){
@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 
 // ****** EFFECTS & ANIMATIONS ******
-
+// ----- PARALAX ----------------
 function Paralaxeffect(){
     $("#container").mousemove(function(e) {
     parallaxIt(e, ".img_m_1", -25);
@@ -93,4 +93,21 @@ function Paralaxeffect(){
       y: (relY - $this.height() / 2) / $this.height() * movement
     });
     }
+}
+
+// ----- ANIMATIONS ----------------
+
+function S0animation(){
+
+  var $isAnimatedSecond = $('.second .is-animated'),
+      $isAnimatedSecondSingle = $('.second .is-animated__single');
+
+  /* this code is part of the onLeave callback */
+  if( index == 1 && nextIndex == 2 ) {
+      $isAnimatedSecond.addClass('animated fadeInUpBig');
+      $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
+      $isAnimatedSecond.eq(1).css('animation-delay', '.6s');
+      $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
+      $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
+  }
 }
