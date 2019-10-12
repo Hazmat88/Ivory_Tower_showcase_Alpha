@@ -447,6 +447,25 @@ button.btn {
   right: 0px;
 }
 
+/*
+h2{
+  color:white;
+  font-size:4em;
+  text-align: center;
+  z-index: 10;
+}
+.section-one > .fp-tableCell h2 {
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+}
+
+.section-one.active > .fp-tableCell h2 {
+	transform: translateY(0);
+	opacity: 1;
+}
+*/
 /* line 3, ../../sass/mobile/section2_m.scss */
 .m2l1, .m2l2 {
   height: 200px;

@@ -97,12 +97,12 @@ function Paralaxeffect(){
 
 // ----- ANIMATIONS ----------------
 
-function S0animation(){
+/*function S0animation(){
 
   var $isAnimatedSecond = $('.second .is-animated'),
       $isAnimatedSecondSingle = $('.second .is-animated__single');
 
-  /* this code is part of the onLeave callback */
+  /* this code is part of the onLeave callback
   if( index == 1 && nextIndex == 2 ) {
       $isAnimatedSecond.addClass('animated fadeInUpBig');
       $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
@@ -110,4 +110,4 @@ function S0animation(){
       $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
       $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
   }
-}
+}*/
