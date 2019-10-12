@@ -421,16 +421,20 @@ button.btn {
   border-radius: 4px;
 }
 */
-/* line 17, ../../sass/mobile/m_section.scss */
-.ml1, .ml2, .ml3, .ml4 {
+/* line 19, ../../sass/mobile/m_section.scss */
+.rwsection0 {
   margin-top: 100px;
+}
+
+/* line 22, ../../sass/mobile/m_section.scss */
+.ml1, .ml2, .ml3, .ml4 {
   height: 300px;
   width: 200px;
   background-color: black;
   border-radius: 30px;
 }
 
-/* line 29, ../../sass/mobile/m_section.scss */
+/* line 34, ../../sass/mobile/m_section.scss */
 .m1l2 {
   height: 200px;
   background-color: black;
@@ -440,7 +444,7 @@ button.btn {
 /*.section{
   position:relative;
 }*/
-/* line 43, ../../sass/mobile/m_section.scss */
+/* line 48, ../../sass/mobile/m_section.scss */
 #tryA {
   position: absolute;
   bottom: 0px;

@@ -16,28 +16,24 @@ Paralaxeffect();
 function navbar(){
   let burger = document.getElementById('burger'),
   nav    = document.getElementById('main-nav'),
-  slowmo = document.getElementById('slowmo');
 
+  // TARGET NAV LINK 1BY1 THINK POSSIBLE TO TURN INTO LOOP
+  li1 = document.getElementById('li1');
+  li2 = document.getElementById('li2');
+  li3 = document.getElementById('li3');
+  li4 = document.getElementById('li4');
+
+// BURGER ELEMENTS TURN TO CROSS WHEN CLICK
   burger.addEventListener('click', function(e){
   this.classList.toggle('is-open');
   nav.classList.toggle('is-open');
   });
 
-  /* Onload demo - dirty timeout */
-  let clickEvent = new Event('click');
+// CLOSE NAV & TURN BUGER/CROSS ICON WHEN CLICK NAV LINK
+  [li1, li2,li3,li4].map(element => element.addEventListener('click',function(e){ nav.classList.toggle('is-open');
+  burger.classList.toggle('is-open');
+  }));
 
-  window.addEventListener('load', function(e) {
-  slowmo.dispatchEvent(clickEvent);
-  burger.dispatchEvent(clickEvent);
-
-  setTimeout(function(){
-  burger.dispatchEvent(clickEvent);
-
-  setTimeout(function(){
-    slowmo.dispatchEvent(clickEvent);
-  }, 3500);
-  }, 5500);
-  });
 }
 
 // ************* HOME BACKGROUND *********

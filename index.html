@@ -51,18 +51,19 @@
 
           <!-- NAV MENU -->
         			<ul>
-        				<li>
-        					<a href="#">Acceuil</a>
+                <li id="li1" data-menuanchor="firstSection">
+        					<a href="#firstSection">Acceuil</a>
         				</li>
-        				<li>
-        					<a href="#">Concept1</a>
-        				</li>
-        				<li>
-        					<a href="#">Concept2</a>
-        				</li>
-        				<li>
-        					<a href="#">Contact</a>
-        				</li>
+              </li>
+                <li id="li2" data-menuanchor="secondSection">
+                  <a href="#secondSection">Concept 01</a>
+                </li>
+                <li id="li3" data-menuanchor="thirdSection">
+                  <a href="#thirdSection">Concept 02</a>
+                </li>
+                <li id="li4" data-menuanchor="fourthSection">
+                  <a href="#fourthSection">Contact</a>
+                </li>
         			</ul>
         </div>
 		</nav>
@@ -149,8 +150,8 @@
 
 
 <!--SECTION 1 - MODULE 1  -->
-      	<div class="section section-one fp-scrollable" id="section1">
-      	    <div class="slide  fp-auto-height" id="slide0">
+      	<div class="section section-one " id="section1">
+      	    <div class="slide fp-auto-height" id="slide0">
 
             <!-- M1 LINE 1  -->
 
@@ -178,6 +179,7 @@ element.classList.add('animated', 'bounceOutLeft')
                 </div>
             <!-- TRY FULLPAGE JS ANIMATION-->
             <img id="tryA" class ="test_animated" src="img/home_m_elements/scrolldown_R.png" alt="">
+
       		</div>
     	</div>
 
@@ -238,8 +240,8 @@ element.classList.add('animated', 'bounceOutLeft')
               <!-- SWUP CDN
               <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>-->
               <script src="js/main.js"></script>
-              <script type="text/javascript" src="pluggins/fullpage_dists/fullpage.js"></script>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/vendors/scrolloverflow.js"></script>
+              <script type="text/javascript" src="pluggins/fullpage_dists/fullpage.js"></script>
               <!-- TEST PARALAX -->
               <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js">
               </script>
@@ -250,13 +252,13 @@ element.classList.add('animated', 'bounceOutLeft')
               <!-- ************* FULLPAGE.JS INITIALIZATION ******** -->
               <script type="text/javascript">
                   var myFullpage = new fullpage('#fullpage', {
-                      anchors: ['firstPage', 'secondPage', '3rdPage','4thPage'],
+                      anchors: ['firstSection', 'secondSection', 'thirdSection','fourthSection'],
                       sectionsColor: ['#7E8F7C', '#7E8F7C', '#F07176','#7E8F7C'],
+                      scrollOverflow: true,
                       navigation: true,
                       navigationPosition: 'left',
                       navigationTooltips: ['acceuil', 'Concept', 'Concept1', 'Contact'],
                       menu: '#menu',
-                      scrollOverflow: true,
 
                   });
             </script>
