@@ -54,7 +54,6 @@
                 <li id="li1" data-menuanchor="firstSection">
         					<a href="#firstSection">Acceuil</a>
         				</li>
-              </li>
                 <li id="li2" data-menuanchor="secondSection">
                   <a href="#secondSection">Concept 01</a>
                 </li>
@@ -68,9 +67,10 @@
         </div>
 		</nav>
 
-
+<div id="fullpage">
 <!--  COVER img background outside fullpage div > paralax effect -->
-
+<div class="section section-one ">
+    <div class="slide slide-one fp-auto-height">
 <header id="cover">
 
 
@@ -93,11 +93,11 @@
 
 </header>
 
-
+</div></div>
 
 
 <!--  FULLPAGE JS -->
-<div id="fullpage">
+
 
 <!-- ********************************* -->
 <!-- TRY Pluggin Animated css -->
@@ -151,8 +151,11 @@
 
 <!--SECTION 1 - MODULE 1  -->
       	<div class="section section-one " id="section1">
-      	    <div class="slide fp-auto-height" id="slide0">
-
+      	    <div class="slide slide-one fp-auto-height" id="slide0">
+              <h2 class="try22">Section 1</h2>
+              			<p>This is paragraph nr.1 in Section 1</p>
+              			<p>This is paragraph nr.2 in Section 1</p>
+              			<p>This is paragraph nr.3 in Section 1</p>
             <!-- M1 LINE 1  -->
 
                <div class="row rwsection0">
@@ -223,12 +226,7 @@ element.classList.add('animated', 'bounceOutLeft')
       		</div>
       	</div>
 
-      	<div class="section" id="section4">
-          <div class="slide fp-auto-height" id="slide4">
-      			<h1>Navigation dots</h1>
-      			<p>An easy and beautiful way to navigate throw the sections</p>
-      		</div>
-      	</div>
+      	
   </div>
 
 
@@ -253,7 +251,7 @@ element.classList.add('animated', 'bounceOutLeft')
               <script type="text/javascript">
                   var myFullpage = new fullpage('#fullpage', {
                       anchors: ['firstSection', 'secondSection', 'thirdSection','fourthSection'],
-                      sectionsColor: ['#7E8F7C', '#7E8F7C', '#F07176','#7E8F7C'],
+                      sectionsColor: ['#FFFF','#7E8F7C', '#7E8F7C', '#F07176'],
                       scrollOverflow: true,
                       navigation: true,
                       navigationPosition: 'left',

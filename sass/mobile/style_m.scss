@@ -3,3 +3,30 @@
 @import "home_m.scss";
 @import "m_section.scss";
 @import "section2_m.scss";
+
+// SIDE DOTS NAV
+.fp-viewing-firstSection-0 #fp-nav ul li a span,.fp-viewing-fourthSection-0 #fp-nav ul li a span{
+     background: black;
+}
+
+
+#fp-nav ul li a span{
+     background: #F07176;
+}
+
+
+.section-one .slide-one > .fp-tableCell h2,
+.section-one .slide-one > .fp-tableCell p {
+  color:white;
+	transform: translateY(-1000px);
+	opacity: 0;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+}
+
+.try22{
+  margin-top:50px;
+  font-size: 2em;
+  color:white;
+  text-align: center;
+}

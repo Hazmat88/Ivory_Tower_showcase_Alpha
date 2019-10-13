@@ -551,6 +551,33 @@ h2{
   border-radius: 30px;
 }
 
+/* line 8, ../sass/mobile/style_m.scss */
+.fp-viewing-firstSection-0 #fp-nav ul li a span, .fp-viewing-fourthSection-0 #fp-nav ul li a span {
+  background: black;
+}
+
+/* line 13, ../sass/mobile/style_m.scss */
+#fp-nav ul li a span {
+  background: #F07176;
+}
+
+/* line 18, ../sass/mobile/style_m.scss */
+.section-one .slide-one > .fp-tableCell h2,
+.section-one .slide-one > .fp-tableCell p {
+  color: white;
+  transform: translateY(-1000px);
+  opacity: 0;
+  transition: transform 0.66s cubic-bezier(0.16, 0.68, 0.43, 0.99), opacity 0.66s ease-in-out;
+}
+
+/* line 27, ../sass/mobile/style_m.scss */
+.try22 {
+  margin-top: 50px;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   /* line 3, ../sass/desktop/nav_d.scss */
   .titleAI, .titleBT {
