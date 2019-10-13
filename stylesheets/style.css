@@ -571,6 +571,12 @@ h2{
 }
 
 /* line 27, ../sass/mobile/style_m.scss */
+.fp-viewing-firstSection-0 .iScrollIndicator, .fp-viewing-secondSection-0 .iScrollIndicator, .fp-viewing-thirSection-0 .iScrollIndicator {
+  border: 0px !important;
+  background-color: transparent !important;
+}
+
+/* line 32, ../sass/mobile/style_m.scss */
 .try22 {
   margin-top: 50px;
   font-size: 2em;

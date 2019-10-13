@@ -23,6 +23,11 @@
 	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 				opacity .66s ease-in-out;
 }
+//scrollbar invisible
+.fp-viewing-firstSection-0 .iScrollIndicator,.fp-viewing-secondSection-0 .iScrollIndicator, .fp-viewing-thirSection-0 .iScrollIndicator{
+  border: 0px !important;
+  background-color:rgba(0,0,0,0)!important;
+}
 
 .try22{
   margin-top:50px;
