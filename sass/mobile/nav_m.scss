@@ -64,6 +64,16 @@
 		bottom:0px;
 	}
 
+//TRY REFACTO HEADER
+	.header {
+	width: 100%;
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	background: rgba(0,0,0,0);
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 7px;
+}
 
 	nav{
 		.brand-logo{

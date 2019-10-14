@@ -94,8 +94,21 @@ header {
   right: 2vw;
 }
 
-/* line 101, ../../sass/mobile/home_m.scss */
-#imgparalax {
+/* line 99, ../../sass/mobile/home_m.scss */
+#slide1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 104, ../../sass/mobile/home_m.scss */
+#section0 {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+/* line 109, ../../sass/mobile/home_m.scss */
+#imgparalax, #container {
   position: absolute;
   top: 0;
   left: 0;

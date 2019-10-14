@@ -62,14 +62,25 @@
   bottom: 0px;
 }
 
-/* line 69, ../../sass/mobile/nav_m.scss */
+/* line 68, ../../sass/mobile/nav_m.scss */
+.header {
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 7px;
+}
+
+/* line 79, ../../sass/mobile/nav_m.scss */
 nav .brand-logo {
   color: black;
   opacity: 1;
 }
 
 /* Main menu positionning */
-/* line 79, ../../sass/mobile/nav_m.scss */
+/* line 89, ../../sass/mobile/nav_m.scss */
 .main-nav {
   position: absolute;
   top: 0;
@@ -84,7 +95,7 @@ nav .brand-logo {
   transition: all .375s;
 }
 
-/* line 93, ../../sass/mobile/nav_m.scss */
+/* line 103, ../../sass/mobile/nav_m.scss */
 .main-nav.is-open {
   opacity: 1;
   z-index: 100;
@@ -93,7 +104,7 @@ nav .brand-logo {
 }
 
 /* RED band effect */
-/* line 101, ../../sass/mobile/nav_m.scss */
+/* line 111, ../../sass/mobile/nav_m.scss */
 .main-nav::before {
   content: '';
   position: absolute;
@@ -107,13 +118,13 @@ nav .brand-logo {
   transition: all .275s .1s;
 }
 
-/* line 114, ../../sass/mobile/nav_m.scss */
+/* line 124, ../../sass/mobile/nav_m.scss */
 .main-nav.is-open::before {
   transform: skew(-14deg) translateX(0);
 }
 
 /* Skewing effect on menu links */
-/* line 119, ../../sass/mobile/nav_m.scss */
+/* line 129, ../../sass/mobile/nav_m.scss */
 .main-nav ul {
   display: inline-flex;
   flex-direction: column;
@@ -124,7 +135,7 @@ nav .brand-logo {
   transform: translateX(-18%) skew(-16deg);
 }
 
-/* line 128, ../../sass/mobile/nav_m.scss */
+/* line 138, ../../sass/mobile/nav_m.scss */
 .main-nav li {
   display: block;
   margin: .5rem 0;
@@ -133,58 +144,58 @@ nav .brand-logo {
 }
 
 /* Apparition effect on links */
-/* line 136, ../../sass/mobile/nav_m.scss */
+/* line 146, ../../sass/mobile/nav_m.scss */
 .main-nav a {
   opacity: 0;
   transform: translateY(-10px);
 }
 
-/* line 141, ../../sass/mobile/nav_m.scss */
+/* line 151, ../../sass/mobile/nav_m.scss */
 .brand-logo {
   color: black;
   opacity: 1;
 }
 
-/* line 146, ../../sass/mobile/nav_m.scss */
+/* line 156, ../../sass/mobile/nav_m.scss */
 .main-nav.is-open a {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* line 150, ../../sass/mobile/nav_m.scss */
+/* line 160, ../../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(1) a {
   transition: all 275ms 175ms;
 }
 
-/* line 153, ../../sass/mobile/nav_m.scss */
+/* line 163, ../../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(2) a {
   transition: all 275ms 225ms;
 }
 
-/* line 156, ../../sass/mobile/nav_m.scss */
+/* line 166, ../../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(3) a {
   transition: all 275ms 275ms;
 }
 
-/* line 159, ../../sass/mobile/nav_m.scss */
+/* line 169, ../../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(4) a {
   transition: all 275ms 325ms;
 }
 
-/* line 162, ../../sass/mobile/nav_m.scss */
+/* line 172, ../../sass/mobile/nav_m.scss */
 .main-nav li:nth-child(5) a {
   transition: all 275ms 375ms;
 }
 
 /* Decoration */
-/* line 168, ../../sass/mobile/nav_m.scss */
+/* line 178, ../../sass/mobile/nav_m.scss */
 .main-nav ul,
 .main-nav li {
   list-style: none;
   padding: 0;
 }
 
-/* line 173, ../../sass/mobile/nav_m.scss */
+/* line 183, ../../sass/mobile/nav_m.scss */
 .main-nav a {
   font-family: 'aileronsregular', Arial, sans-serif;
   font-weight: normal;
@@ -197,7 +208,7 @@ nav .brand-logo {
 }
 
 /* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
-/* line 186, ../../sass/mobile/nav_m.scss */
+/* line 196, ../../sass/mobile/nav_m.scss */
 .open-main-nav {
   position: absolute;
   top: 30px;
@@ -209,12 +220,12 @@ nav .brand-logo {
   cursor: pointer;
 }
 
-/* line 196, ../../sass/mobile/nav_m.scss */
+/* line 206, ../../sass/mobile/nav_m.scss */
 .open-main-nav:focus {
   outline: none;
 }
 
-/* line 199, ../../sass/mobile/nav_m.scss */
+/* line 209, ../../sass/mobile/nav_m.scss */
 .burger {
   position: relative;
   display: block;
@@ -226,7 +237,7 @@ nav .brand-logo {
   transition: all .275s;
 }
 
-/* line 210, ../../sass/mobile/nav_m.scss */
+/* line 220, ../../sass/mobile/nav_m.scss */
 .burger:after,
 .burger:before {
   content: '';
@@ -236,35 +247,35 @@ nav .brand-logo {
   transition: all .275s;
 }
 
-/* line 219, ../../sass/mobile/nav_m.scss */
+/* line 229, ../../sass/mobile/nav_m.scss */
 .burger:after {
   transform: translateY(-12px) translateX(-2px) skew(-20deg);
 }
 
-/* line 223, ../../sass/mobile/nav_m.scss */
+/* line 233, ../../sass/mobile/nav_m.scss */
 .burger:before {
   transform: translateY(-16px) skew(-10deg);
 }
 
 /* Toggle State part */
-/* line 228, ../../sass/mobile/nav_m.scss */
+/* line 238, ../../sass/mobile/nav_m.scss */
 .is-open .burger {
   transform: skew(5deg) translateY(-8px) rotate(-45deg);
 }
 
-/* line 232, ../../sass/mobile/nav_m.scss */
+/* line 242, ../../sass/mobile/nav_m.scss */
 .is-open .burger:before {
   transform: translateY(0px) skew(-10deg) rotate(75deg);
 }
 
-/* line 236, ../../sass/mobile/nav_m.scss */
+/* line 246, ../../sass/mobile/nav_m.scss */
 .is-open .burger:after {
   transform: translateY(-12px) translateX(10px) skew(-20deg);
   opacity: 0;
 }
 
 /* MENU Text part */
-/* line 243, ../../sass/mobile/nav_m.scss */
+/* line 253, ../../sass/mobile/nav_m.scss */
 .burger-text {
   display: block;
   font-size: .675rem;
@@ -276,7 +287,7 @@ nav .brand-logo {
   color: black;
 }
 
-/* line 254, ../../sass/mobile/nav_m.scss */
+/* line 264, ../../sass/mobile/nav_m.scss */
 .device {
   position: relative;
   width: 345px;
@@ -287,7 +298,7 @@ nav .brand-logo {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 264, ../../sass/mobile/nav_m.scss */
+/* line 274, ../../sass/mobile/nav_m.scss */
 .container {
   position: absolute;
   top: 0;
