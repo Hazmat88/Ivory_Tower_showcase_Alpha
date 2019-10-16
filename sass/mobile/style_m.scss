@@ -4,7 +4,7 @@
 @import "m_section.scss";
 @import "section2_m.scss";
 
-// SIDE DOTS NAV
+// ****** SIDE DOTS NAV **********************
 .fp-viewing-firstSection-0 #fp-nav ul li a span,.fp-viewing-fourthSection-0 #fp-nav ul li a span{
      background: black;
 }
@@ -12,9 +12,21 @@
 
 #fp-nav ul li a span{
      background: #F07176;
+     position: absolute;
+     bottom:25px;
+     left: 0px;
 }
 
+// ******** TRY DOTS MENU HORIZONTAL **************
+/*	Overwriting styles for the navigation dots (to place it where we want)
+	* ---------------------------------------
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+*/
 
+
+// ******** TRY CSS Fullpage ANIMATIONS **************
 .section-one .slide-one > .fp-tableCell h2,
 .section-one .slide-one > .fp-tableCell p {
   color:white;
@@ -29,9 +41,9 @@
   background-color:rgba(0,0,0,0)!important;
 }
 
-.try22{
+/*.try22{
   margin-top:50px;
   font-size: 2em;
   color:white;
   text-align: center;
-}
+}*/

@@ -475,25 +475,24 @@ button.btn {
   right: 0px;
 }
 
-/*
-h2{
-  color:white;
-  font-size:4em;
+/* line 54, ../../sass/mobile/m_section.scss */
+h2 {
+  color: white;
+  font-size: 1em;
   text-align: center;
-  z-index: 10;
-}
-.section-one > .fp-tableCell h2 {
-	transform: translateY(-1000px);
-	opacity: 0;
-	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
-				opacity .8s ease-in-out;
 }
 
-.section-one.active > .fp-tableCell h2 {
-	transform: translateY(0);
-	opacity: 1;
+/* line 60, ../../sass/mobile/m_section.scss */
+.section-one > .fp-tableCell h2 {
+  opacity: 1;
 }
-*/
+
+/* line 67, ../../sass/mobile/m_section.scss */
+.section-one.active > .fp-tableCell h2 {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /* line 3, ../../sass/mobile/section2_m.scss */
 .m2l1, .m2l2 {
   height: 200px;
@@ -518,9 +517,18 @@ h2{
 /* line 13, ../../sass/mobile/style_m.scss */
 #fp-nav ul li a span {
   background: #F07176;
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
 }
 
-/* line 18, ../../sass/mobile/style_m.scss */
+/*	Overwriting styles for the navigation dots (to place it where we want)
+	* ---------------------------------------
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+*/
+/* line 30, ../../sass/mobile/style_m.scss */
 .section-one .slide-one > .fp-tableCell h2,
 .section-one .slide-one > .fp-tableCell p {
   color: white;
@@ -529,16 +537,15 @@ h2{
   transition: transform 0.66s cubic-bezier(0.16, 0.68, 0.43, 0.99), opacity 0.66s ease-in-out;
 }
 
-/* line 27, ../../sass/mobile/style_m.scss */
+/* line 39, ../../sass/mobile/style_m.scss */
 .fp-viewing-firstSection-0 .iScrollIndicator, .fp-viewing-secondSection-0 .iScrollIndicator, .fp-viewing-thirdSection-0 .iScrollIndicator {
   border: 0px !important;
   background-color: transparent !important;
 }
 
-/* line 32, ../../sass/mobile/style_m.scss */
-.try22 {
-  margin-top: 50px;
+/*.try22{
+  margin-top:50px;
   font-size: 2em;
-  color: white;
+  color:white;
   text-align: center;
-}
+}*/

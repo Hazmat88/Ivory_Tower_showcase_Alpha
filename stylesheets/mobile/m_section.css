@@ -41,22 +41,20 @@ button.btn {
   right: 0px;
 }
 
-/*
-h2{
-  color:white;
-  font-size:4em;
+/* line 54, ../../sass/mobile/m_section.scss */
+h2 {
+  color: white;
+  font-size: 1em;
   text-align: center;
-  z-index: 10;
-}
-.section-one > .fp-tableCell h2 {
-	transform: translateY(-1000px);
-	opacity: 0;
-	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
-				opacity .8s ease-in-out;
 }
 
-.section-one.active > .fp-tableCell h2 {
-	transform: translateY(0);
-	opacity: 1;
+/* line 60, ../../sass/mobile/m_section.scss */
+.section-one > .fp-tableCell h2 {
+  opacity: 1;
 }
-*/
+
+/* line 67, ../../sass/mobile/m_section.scss */
+.section-one.active > .fp-tableCell h2 {
+  transform: translateY(0);
+  opacity: 1;
+}

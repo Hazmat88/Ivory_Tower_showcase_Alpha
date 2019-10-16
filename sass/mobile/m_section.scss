@@ -50,22 +50,21 @@ button.btn {
   bottom:0px;
   right:0px;
 }
-/*
+
 h2{
   color:white;
-  font-size:4em;
+  font-size:1em;
   text-align: center;
-  z-index: 10;
+  //z-index: 10;
 }
 .section-one > .fp-tableCell h2 {
-	transform: translateY(-1000px);
-	opacity: 0;
-	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
-				opacity .8s ease-in-out;
+	//transform: translateY(-1000px);
+	opacity: 1;
+	//transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+		//		opacity .8s ease-in-out;
 }
 
 .section-one.active > .fp-tableCell h2 {
 	transform: translateY(0);
 	opacity: 1;
 }
-*/
